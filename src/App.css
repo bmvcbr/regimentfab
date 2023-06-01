@@ -1,0 +1,25 @@
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.nav-title {
+  text-align: center;
+}
+
+.home-image-rows {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.home-card {
+  background-color: rgb(115, 113, 68) !important;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
