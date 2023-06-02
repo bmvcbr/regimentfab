@@ -23,3 +23,27 @@
   margin: 20px;
   padding: 20px;
 }
+
+.logo-container img {
+  max-width: 150px;
+}
+
+.map-title {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-socials img {
+  max-width: auto;
+  max-height: 50px;
+}
+
+.footer-button-group button{
+  margin: 10px;
+  background-color:rgb(115, 113, 68);
+}
+
+.footer {
+  background-color:rgb(41, 41, 41);
+}

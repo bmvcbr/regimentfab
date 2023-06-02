@@ -2,6 +2,7 @@ import Card from '@mui/material/Card';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import CardContent from '@mui/material/CardContent';
 import LogoGrid from "../logogrid";
+import Footer from "../footer";
 
 export default function Home() {
     return (
@@ -47,7 +48,39 @@ export default function Home() {
             <Grid container spacing={3}>
                 <LogoGrid />
             </Grid>
-
+            <Grid container spacing={3}>
+                <Grid xs={4}>
+                    <Card className="home-card">
+                        <CardContent>
+                            <h1>Hours</h1>
+                            <h2>Monday-Friday<br />9AM - 5PM</h2>
+                        </CardContent>
+                    </Card>
+                </Grid>
+                <Grid xs={8}>
+                    <Card className="home-card">
+                        <CardContent>
+                            <Grid container spacing={1}>
+                                <Grid xs={5} className="map-title">
+                                    <h1>Come visit us!</h1>
+                                    <h2><a href="https://goo.gl/maps/USNmLsW8ZjQGfYLi6" target="_blank" rel="noreferrer">8972 OH-88, Windham, OH 44288</a></h2>
+                                </Grid>
+                                <Grid xs={7}>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.396872615177!2d-81.14874612345693!3d41.234912205438356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883115411ee73bb3%3A0x7bb4dd5f7b4e6189!2sRegiment%20Fabrication%20and%20Finish!5e0!3m2!1sen!2sus!4v1685715196565!5m2!1sen!2sus" 
+                                    width="600" 
+                                    height="250"
+                                    title="regiment-map"
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </Grid>
+                            </Grid>
+                        </CardContent>
+                    </Card>
+                </Grid>
+            </Grid>
+            <Footer />
         </div>
     );
 }
