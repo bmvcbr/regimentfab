@@ -6,7 +6,7 @@ export default function Footer() {
     return(
         <Grid container spacing={3} className="footer">
             <Grid xs={4}>
-                <h1>Regiment Fabrication and Finishing</h1>
+                <img src="../socials/regimentlogo.png" alt="Regiment Fabrication and Finish logo" />
             </Grid>
             <Grid xs={4}>
                 <Grid container spacing={1} className="footer-socials">

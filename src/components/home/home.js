@@ -3,15 +3,16 @@ import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import CardContent from '@mui/material/CardContent';
 import LogoGrid from "../logogrid";
 import Footer from "../footer";
+import ImageCarousel from '../imageCarousel';
 
 export default function Home() {
     return (
         <div className="home-image-rows">
             <Grid container spacing={3}>
-                <Grid xs={4}>
-
+                <Grid xs={6}>
+                    <ImageCarousel />
                 </Grid>
-                <Grid xs={8}>
+                <Grid xs={6}>
                     <Card className="home-card">
                         <CardContent>
                             <h2>

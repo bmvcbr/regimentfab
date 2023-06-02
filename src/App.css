@@ -39,6 +39,12 @@
   max-height: 50px;
 }
 
+.footer-socials {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .footer-button-group button{
   margin: 10px;
   background-color:rgb(115, 113, 68);
@@ -46,4 +52,5 @@
 
 .footer {
   background-color:rgb(41, 41, 41);
+  display: flex;
 }
