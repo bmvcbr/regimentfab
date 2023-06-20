@@ -54,6 +54,8 @@
 .footer {
   background-color:rgb(41, 41, 41);
   display: flex;
+  position: absolute;
+  width: 100%;
 }
 
 .home-img-1 {
@@ -88,3 +90,35 @@
   height: 50px;
 }
 
+.page-title {
+  text-align: center;
+}
+
+
+.services-accordion {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  margin-bottom: 200px;
+}
+
+.accordion-title {
+  font-size: 20px !important;
+  color:rgb(115, 113, 68);
+}
+
+.accordion-description {
+  font-size: 18px !important;
+}
+
+#panel1a-header {
+  background-color:rgb(213, 213, 213);
+}
+
+.accordion-details {
+  background-color:rgb(115, 113, 68)
+}
+
+.services {
+  text-align: center;
+}
