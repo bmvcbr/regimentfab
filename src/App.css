@@ -22,6 +22,7 @@
   text-align: center;
   margin: 20px;
   padding: 20px;
+  height: auto;
 }
 
 .logo-container img {
@@ -54,3 +55,36 @@
   background-color:rgb(41, 41, 41);
   display: flex;
 }
+
+.home-img-1 {
+  padding: 10px;
+  height: 600px;
+  width: auto;
+}
+
+.home-img-2 {
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+
+.home-img-phonenumber {
+  height: 50px;
+  width: auto;
+}
+
+.nav-logo {
+  width: auto;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer img {
+  width: auto;
+  height: 50px;
+}
+

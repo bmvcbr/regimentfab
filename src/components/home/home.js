@@ -8,11 +8,11 @@ import ImageCarousel from '../imageCarousel';
 export default function Home() {
     return (
         <div className="home-image-rows">
-            <Grid container spacing={3}>
-                <Grid xs={6}>
-                    <ImageCarousel />
+            <Grid container spacing={3} className="home-row-1">
+                <Grid xs={7}>
+                    <img className="home-img-1" src="../cars/old truck.png" alt="old truck"/>
                 </Grid>
-                <Grid xs={6}>
+                <Grid xs={5}>
                     <Card className="home-card">
                         <CardContent>
                             <h2>
@@ -22,12 +22,13 @@ export default function Home() {
                                 satisfied with our services.
                             </h2>
                             <h1><i>We build customers for life!</i></h1>
+                            <img src="../regiment-logos/roundlogosmall.png" />
                         </CardContent>
                     </Card>
                 </Grid>
             </Grid>
             <Grid container spacing={3}>
-                <Grid xs={8}>
+                <Grid xs={7}>
                     <Card className="home-card">
                             <CardContent>
                                 <h2>
@@ -41,11 +42,11 @@ export default function Home() {
                             </CardContent>
                     </Card>
                 </Grid>
-                <Grid xs={4}>
-
+                <Grid xs={5}>
+                    <img className="home-img-2" src="../cars/red toyota.png" />
                 </Grid>
             </Grid>
-            <h1>Supported by brands like...</h1>
+            <h1>A few of the quality brands we use:</h1>
             <Grid container spacing={3}>
                 <LogoGrid />
             </Grid>
@@ -55,6 +56,7 @@ export default function Home() {
                         <CardContent>
                             <h1>Hours</h1>
                             <h2>Monday-Friday<br />9AM - 5PM</h2>
+                            <img className="home-img-phonenumber" src="../regiment-logos/phonenumberwhite.jpg" />
                         </CardContent>
                     </Card>
                 </Grid>
