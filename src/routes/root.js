@@ -49,10 +49,6 @@ export default function Root() {
                         <img className="home-img-2" src="../cars/red toyota.png" />
                     </Grid>
                 </Grid>
-                <h1>A few of the quality brands we use:</h1>
-                <Grid container spacing={3}>
-                    <LogoGrid />
-                </Grid>
                 <Grid container spacing={3}>
                     <Grid xs={4}>
                         <Card className="home-card">

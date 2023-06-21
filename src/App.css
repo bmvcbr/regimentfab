@@ -26,7 +26,18 @@
 }
 
 .logo-container img {
-  max-width: 150px;
+  max-width: 100px;
+  justify-content: center;
+}
+
+.logo-container-individual {
+  justify-content: center;
+  display: flex;
+}
+
+.logo-grid {
+  margin: 20px;
+  
 }
 
 .map-title {
@@ -37,7 +48,7 @@
 
 .footer-socials img {
   max-width: auto;
-  max-height: 50px;
+  max-height: 40px;
 }
 
 .footer-socials {
